@@ -6,6 +6,12 @@
   align-items: center;
   flex-direction: column;
 }
+
+#404 {
+  height: 50%;
+  width: auto;
+}
+
 .head:after {
     content : "";
     display: block;
