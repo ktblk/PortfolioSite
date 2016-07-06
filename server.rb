@@ -1,5 +1,5 @@
 require 'sinatra'
 
 get '/' do
-  send_file 'portfolio2.html'
+  File.read(File.join('public', 'portfolio2.html'))
 end
