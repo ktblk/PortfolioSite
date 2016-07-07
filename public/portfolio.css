@@ -40,6 +40,7 @@
   text-decoration: none;
 }
 
+
 .btn {
     position: absolute;
     bottom: 0;
@@ -67,6 +68,8 @@
   /*color: #696969;*/
   font-family: Menlo;
 }
+
+
 
 .btn2 {
   position: absolute;
@@ -117,4 +120,61 @@
 .btn:hover {
   background-color: #202020;
   border-color: #fff;
+}
+
+/*.projectthumb:hover div {
+  background: url("img/hoc2.jpg");
+  width: 380px;
+  height: 300px;
+  margin: 0 auto;
+  border: 4px solid white;
+  border-radius: 1%;
+
+  margin-bottom: 2.75em;
+  opacity: 0.6;
+}*/
+/*.projectthumb div {
+  background: url("img/wyncodesquad2.jpg");
+  width: 380px;
+  height: 300px;
+  margin: 0 auto;
+  border: 4px solid white;
+  border-radius: 1%;
+
+  margin-bottom: 2.75em;
+  opacity: 0.6;
+}*/
+
+.divrandom {
+  background: url("img/coding1.jpeg") no-repeat center center;
+  background-size: cover;
+  transition: .5s;
+  width: 480px;
+  height: 230px;
+  margin: 0 auto;
+  border: 4px solid white;
+  border-radius: 1%;
+
+  margin-bottom: 2.75em;
+  opacity: 0.8;
+  padding-top: 1em;
+}
+
+.divrandom:hover {
+  background: url("img/hoc.jpg") no-repeat center center;
+  background-size: cover;
+  opacity: 0.7;
+  padding-top: 1em;
+  /*width: 380px;
+  height: 300px;
+  margin: 0 auto;
+  border: 4px solid white;
+  border-radius: 1%;*/
+
+  /*margin-bottom: 2.75em;
+  opacity: 0.6;*/
+}
+
+.projectthumb img {
+  visibility: hidden;
 }
